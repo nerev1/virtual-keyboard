@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 700px;
+    height: 300px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.keyboard {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: gray;
+    &__button {
+        margin: 5px;
+    }
+}
+
+.description {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_long {
+        width: 100px;
+    }
+
+    &_space {
+        width: 400px;
+    }
+
+    &_active {
+        background-color: green;
+    }
+}
