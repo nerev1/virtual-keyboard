@@ -1,0 +1,52 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 700px;
+  height: 300px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.keyboard {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+.keyboard__button {
+  margin: 5px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_long {
+  width: 100px;
+}
+.button_space {
+  width: 400px;
+}
+.button_active {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
